@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPro Update</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo">EduPro</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"><img id="cs" src="images/search.svg"
+                        alt=""></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"><img src="images/hamburger.svg" alt=""></div>
+                <div id="search-btn" class="fas fa-bars"><img src="images/search.svg" alt=""></div>
+                <div id="user-btn" class="fas fa-bars"><img src="images/user.svg" alt=""></div>
+                <div id="toggle-btn" class="fas fa-sun"><img src="images/sun.svg" alt=""></div>
+            </div>
+
+            <div class="profile">
+                <img style="height: 10rem;" src="images/profile-img.webp" alt="">
+                <h3>Om Goswami</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- side bar -->
+    <div class="side-bar">
+        <div class="close-side-bar">
+            <img src="images/cross.svg" alt="">
+        </div>
+        <div class="profile">
+            <img src="images/profile-img.webp" alt="">
+            <h3>Om Goswami</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span><img src="images/home_icon.svg" alt="">Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span><img src="images/questionMark.svg" alt="">About
+                    Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span><img id="courses-img"
+                        src="images/courses-icon.svg" alt="">Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span><img src="images/teacher.svg"
+                        alt="">Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span><img src="images/contact-us.svg" alt="">Contact
+                    Us</span></a>
+        </nav>
+    </div>
+
+    <!-- update profile section starts -->
+
+    <section class="form-container">
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+        <h3>Update Profile</h3>
+        <p>Your Name</p>
+        <input type="text" name="name" placeholder="Om Goswami" maxlength="100" class="box">
+
+        <p>Your Email</p>
+        <input type="email" name="email" placeholder="aishwarygoswami@gmail.com" maxlength="100" class="box">
+
+        <p>Old Password</p>
+        <input type="password" name="old_pass" placeholder="enter your current password" maxlength="50" class="box">
+
+        <p>New Password</p>
+        <input type="password" name="new_pass" placeholder="enter your new password" maxlength="50" class="box">
+
+        <p>Confirm Password</p>
+        <input type="password" name="c_pass" placeholder="confirm your  password" maxlength="50" class="box">
+        
+        <p>Update Profile Pic</p>
+        <input type="file" name="image" accept="image/*" class="box">
+
+        <input type="submit" name="submit" value="Update Profile" class="btn">
+        </form>
+        
+    </section>
+
+
+    <!-- update profile section ends -->
+
+    <!-- footer section  -->
+    <footer class="footer">
+        &copy; copyright @ 2025 by <span>Mr. Aishwary Goswami</span> | All rights are reserved
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

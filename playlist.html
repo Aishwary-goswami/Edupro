@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo">EduPro</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"><img id="cs" src="images/search.svg"
+                        alt=""></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"><img src="images/hamburger.svg" alt=""></div>
+                <div id="search-btn" class="fas fa-bars"><img src="images/search.svg" alt=""></div>
+                <div id="user-btn" class="fas fa-bars"><img src="images/user.svg" alt=""></div>
+                <div id="toggle-btn" class="fas fa-sun"><img src="images/sun.svg" alt=""></div>
+            </div>
+
+            <div class="profile">
+                <img style="height: 10rem;" src="images/profile-img.webp" alt="">
+                <h3>Om Goswami</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- side bar -->
+    <div class="side-bar">
+        <div class="close-side-bar">
+            <img src="images/cross.svg" alt="">
+        </div>
+        <div class="profile">
+            <img src="images/profile-img.webp" alt="">
+            <h3>Om Goswami</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span><img src="images/home_icon.svg" alt="">Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span><img src="images/questionMark.svg" alt="">About
+                    Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span><img id="courses-img"
+                        src="images/courses-icon.svg" alt="">Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span><img src="images/teacher.svg"
+                        alt="">Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span><img src="images/contact-us.svg" alt="">Contact
+                    Us</span></a>
+        </nav>
+    </div>
+
+    <!-- playlist scetion  -->
+
+    <section class="playlist">
+
+        <h1 class="heading">Playlist Details</h1>
+
+        <div class="row">
+
+            <div class="col">
+
+                <form action="" method="post">
+                    <button type="submit" name="save_list" class="save-list"><img src="images/bookmark-icon.svg"
+                            alt=""><span>Save
+                            Playlist</span></button>
+                </form>
+                <div class="thumb">
+                    <span>Crash Course</span>
+                    <img src="images/Crash-course-image-new.webp" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+
+                <div class="tutor">
+
+                    <div class="tu-profile">
+                        <img src="images/harry.webp" alt="">
+
+                        <div>
+
+                            <h3>Harry</h3>
+                            <span>Developer</span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="details">
+
+                        <h3>Crash Courses Of all Domains</h3>
+
+
+                        <p>Clear and beginner-friendly Crash Courses covering all basics with practical examples. Great
+                            for starting development journey.
+                        </p>
+
+                        <div class="date"><img style="height:1.5rem;filter:invert(var(--val));margin-right: 1rem;"
+                                src="images/calendar-icon.svg" alt=""><span>15/7/2025</span></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- video container section  -->
+
+    <section class="videos-container">
+
+        <h1 class="heading">Playlist Videos</h1>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#html-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/html-crashCourse.webp" alt="">
+            <h3>Full HTML Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#css-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/css-crash-course.webp" alt="">
+            <h3>Full CSS Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#js-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/js-crash-course.webp" alt="">
+            <h3>Full Js Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#python-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/py-crash-course.gif" alt="">
+            <h3>Full Python Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#cpp-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/cpp-crash-course.webp" alt="">
+            <h3>Full C++ Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#java-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/Java-Crash-Course.webp" alt="">
+            <h3>Full Java Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+
+        <div style="margin-bottom: 2rem;" class="box-container">
+
+            <a href="watch_vedio.html#react-video" class="box"><img id="playButton" src="images/playButton.svg" alt="">
+            <img src="images/react-crash-course.webp" alt="">
+            <h3>Full React Js Tutorial (Crash Course)</h3>
+            </a>
+            
+
+        </div>
+    </section>
+
+    
+
+    <!-- footer section  -->
+    <footer class="footer">
+        &copy; copyright @ 2025 by <span>Mr. Aishwary Goswami</span> | All rights are reserved
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
